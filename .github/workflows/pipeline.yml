@@ -33,7 +33,7 @@ jobs:
       - name: Subir artefacto
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .svelte-kit/output
+          path: build 
 
   deploy:
     needs: build
