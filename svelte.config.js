@@ -6,7 +6,10 @@ const config = {
       pages: 'build',
       assets: 'build',
       fallback: 'index.html'
-    })
+    }),
+    paths: {
+      base: '/actividad2-cicd'
+    }
   }
 };
 
