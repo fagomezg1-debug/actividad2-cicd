@@ -1,24 +1,17 @@
-# Prueba Lectiva
+## 🚀 CI/CD Pipeline
 
-Base SvelteKit con arquitectura `feature-first/domain-first` para integrar la API de Rick and Morty.
+Este proyecto cuenta con un pipeline de integración y despliegue continuo (CI/CD) implementado con GitHub Actions.
 
-## Run
+### 🔧 Etapas del pipeline
 
-```bash
-npm install
-npm run dev
-```
+- Instalación de dependencias (`npm install`)
+- Construcción del proyecto (`npm run build`)
+- Despliegue automático en GitHub Pages
 
-## Check
+### 🌐 Sitio desplegado
 
-```bash
-npm run check
-npm run build
-```
+https://fagomezg1-debug.github.io/actividad2-cicd/
 
-## Estructura
+### 📦 Repositorio
 
-- `src/lib/core`: cliente HTTP, configuracion y adaptadores.
-- `src/lib/entities`: tipos y mapeos de dominio.
-- `src/lib/features`: features por caso de uso.
-- `src/routes`: composicion de rutas y carga de datos.
+https://github.com/fagomezg1-debug/actividad2-cicd
