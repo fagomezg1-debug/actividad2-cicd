@@ -1,16 +1,14 @@
 import adapter from '@sveltejs/adapter-static';
 
-const config = {
+export default {
   kit: {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: null
+      fallback: 'index.html'
     }),
     paths: {
       base: '/actividad2-cicd'
     }
   }
 };
-
-export default config;
