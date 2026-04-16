@@ -33,7 +33,7 @@ jobs:
       - name: Subir artefacto
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build 
+          path: static 
 
   deploy:
     needs: build
