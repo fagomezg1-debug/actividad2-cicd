@@ -5,15 +5,10 @@ const config = {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: 'index.html',
-      precompress: false,
-      strict: true
+      fallback: null
     }),
     paths: {
       base: '/actividad2-cicd'
-    },
-    prerender: {
-      default: true
     }
   }
 };
